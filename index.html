@@ -84,39 +84,41 @@
         class="absolute -bottom-32 left-20 w-96 h-96 bg-spring-100 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-4000">
       </div>
       <img src="images/natali.JPG" alt="Fitness background"
-        class="absolute inset-0 w-full h-full object-cover opacity-10" />
+        class="absolute inset-0 w-full h-full object-cover opacity-50" />
     </div>
 
     <div class="container mx-auto px-4 z-10 relative text-center">
       <div
-        class="inline-block px-8 py-3 rounded-full bg-spring-300 text-gray-900 font-bold text-xl mb-10 shadow-sm tracking-wide">
+        class="inline-block px-6 py-2 rounded-full bg-spring-300 text-gray-900 font-bold text-sm md:text-lg mb-6 md:mb-10 shadow-sm tracking-wide">
         СТАРТ В ФЕВРАЛЕ
       </div>
 
-      <h1 class="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-tight">
+      <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6 md:mb-8 leading-tight">
         МАРАФОН<br />
         <span class="text-spring-600">
           «ЛУЧШАЯ ВЕРСИЯ СЕБЯ»
         </span>
       </h1>
 
-      <p class="text-2xl md:text-4xl text-gray-700 mb-12 max-w-4xl mx-auto font-medium">
+      <p class="text-lg md:text-2xl text-gray-700 mb-8 md:mb-12 max-w-4xl mx-auto font-medium">
         Фитнес-марафон Натальи Макаренко
       </p>
 
-      <div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
-        <div class="flex items-center bg-white px-8 py-4 rounded-3xl shadow-md border border-gray-100">
-          <i data-lucide="users" class="w-8 h-8 text-spring-500 mr-4"></i>
-          <span class="text-gray-800 text-xl font-medium">
-            Уже более <span class="text-gray-900 font-bold">2000</span> участниц
+      <div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-12 md:mb-16">
+        <div
+          class="flex items-center bg-white/90 backdrop-blur-sm px-6 py-4 rounded-3xl shadow-md border border-gray-100 max-w-2xl">
+          <i data-lucide="users" class="w-8 h-8 text-spring-500 mr-4 flex-shrink-0"></i>
+          <span class="text-gray-800 text-base md:text-lg font-medium text-left">
+            Уже более <span class="text-gray-900 font-bold">2000</span> участниц получили результат в виде потерянных
+            килограммов и стройного тела
           </span>
         </div>
       </div>
 
       <div class="flex flex-col sm:flex-row gap-6 justify-center">
         <button onclick="document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })"
-          class="bg-gradient-to-r from-fresh-550 to-fresh-600 text-white font-bold rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 active:translate-y-0 text-xl px-12 py-5">
-          БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ
+          class="bg-gradient-to-r from-fresh-550 to-fresh-600 text-white font-bold rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 active:translate-y-0 text-lg px-8 py-4">
+          ХОЧУ УЧАСТВОВАТЬ
         </button>
       </div>
     </div>
@@ -131,7 +133,7 @@
     <div class="container mx-auto px-4">
       <div class="max-w-5xl mx-auto text-center mb-16">
         <h2 class="text-4xl md:text-6xl font-bold text-gray-900 mb-10 leading-tight">
-          Хватит обещать себе начать <span class="text-spring-500">«с понедельника»!</span>
+          Хватит обещать себе начать <br /><span class="text-spring-500">«с понедельника»!</span>
         </h2>
         <p class="text-2xl text-gray-700 mb-12">
           Сейчас — идеальный момент, чтобы всего за месяц:
@@ -169,10 +171,14 @@
     </div>
   </section>
 
+ 
   <!-- Block 3 -->
   <section class="py-24 bg-spring-300">
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row items-center gap-16 max-w-7xl mx-auto">
+
+
+        <!-- Text Column -->
         <div class="md:w-1/2">
           <h3 class="text-4xl font-bold mb-10 flex items-center text-gray-900">
             <span
@@ -197,30 +203,34 @@
             </li>
           </ul>
 
+          <!-- Image Column -->
+          <div class="md:w-1/2 relative">
+            <div class="absolute inset-0 bg-fresh-400 rounded-[4rem] rotate-3 transform opacity-20"></div>
+            <img src="images/natalya_macarenko.jpg" alt="Наталья Макаренко"
+              class="relative rounded-[4rem] shadow-2xl w-full h-auto object-cover transform -rotate-2 transition hover:rotate-0 duration-500 border-8 border-white" />
+          </div>
+
           <div class="bg-white p-10 rounded-[2.5rem] shadow-xl border-l-8 border-fresh-500">
             <p class="text-gray-700 text-xl italic leading-relaxed">
               "Я, <span class="font-bold text-gray-900">Наталья Макаренко</span>, профессиональный фитнес-тренер, знаю,
               что можно по-другому. Мне 53, и я живу в теле, которое люблю. Вот уже несколько лет я помогаю женщинам
-              стать лучшей версией себя с помощью моей проверенной системы питания и простых тренировок."
+              стать лучшей версией себя с помощью моей <span class="font-bold">проверенной системы питания и простых
+                тренировок</span>."
             </p>
           </div>
         </div>
-        <div class="md:w-1/2 relative">
-          <div class="absolute inset-0 bg-fresh-400 rounded-[4rem] rotate-3 transform opacity-20"></div>
-          <img src="images/expert-photo.svg" alt="Наталья Макаренко"
-            class="relative rounded-[4rem] shadow-2xl w-full h-auto object-cover transform -rotate-2 transition hover:rotate-0 duration-500 border-8 border-white" />
-        </div>
+
       </div>
     </div>
   </section>
 
   <!-- Block 4 -->
-  <section class="py-24 bg-gray-900 text-white text-center relative overflow-hidden">
+  <section class="py-24 bg-gray-800 text-white text-center relative overflow-hidden">
     <div
       class="absolute top-0 right-0 w-64 h-64 bg-spring-500 rounded-full mix-blend-overlay filter blur-3xl opacity-20">
     </div>
     <div class="container mx-auto px-4 relative z-10">
-      <h2 class="text-4xl md:text-6xl font-bold mb-8">Если ты готова к переменам,<br />то ты в нужном месте</h2>
+      <h2 class="text-4xl md:text-6xl font-bold mb-8">Хочешь перемен?<br />Значит ты в нужном месте!</h2>
       <p class="text-2xl md:text-3xl max-w-5xl mx-auto opacity-90 leading-relaxed font-light">
         Марафон «Лучшая версия себя» - это 45 дней, которые полностью изменят твоё отношение к себе, своему телу и своей
         жизни.
@@ -256,29 +266,29 @@
   </section>
 
   <!-- Block 6 -->
-  <section class="py-24 bg-gray-50" id="program">
+  <section class="py-24 bg-gradient-to-b from-white to-spring-100" id="program">
     <div class="container mx-auto px-4">
       <h2 class="text-5xl md:text-6xl font-bold text-center text-gray-900 mb-20">Что тебя ждёт?</h2>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
         <!-- Item 1 -->
         <div
-          class="bg-white p-10 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
-          <div
-            class="w-20 h-20 rounded-3xl bg-fresh-100 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-            <i data-lucide="star" class="w-10 h-10 text-fresh-600"></i>
+          class="bg-white p-8 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
+          <div class="w-24 h-24 rounded-3xl overflow-hidden relative mb-6">
+            <img src="images/set1.png" class="absolute w-[300%] max-w-none h-full object-cover top-0 left-0"
+              alt="Похудение" />
           </div>
           <h3 class="text-2xl font-bold text-gray-900 mb-6">Прощай, лишние кг!</h3>
           <p class="text-gray-600 text-lg leading-relaxed">Ты легко и с удовольствием избавишься от 3-7 кг за время
-            марафона, почувствуешь лёгкость и свободу движений.</p>
+            марафона, почувствуешь лёгкость и свободы движений.</p>
         </div>
 
         <!-- Item 2 -->
         <div
-          class="bg-white p-10 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
-          <div
-            class="w-20 h-20 rounded-3xl bg-spring-200 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-            <i data-lucide="dumbbell" class="w-10 h-10 text-spring-700"></i>
+          class="bg-white p-8 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
+          <div class="w-24 h-24 rounded-3xl overflow-hidden relative mb-6">
+            <img src="images/set1.png" class="absolute w-[300%] max-w-none h-full object-cover top-0 left-[-100%]"
+              alt="Упругое тело" />
           </div>
           <h3 class="text-2xl font-bold text-gray-900 mb-6">Подтянутое, упругое тело</h3>
           <p class="text-gray-600 text-lg leading-relaxed">Мы будем работать над тем, чтобы ты могла с гордостью носить
@@ -287,10 +297,10 @@
 
         <!-- Item 3 -->
         <div
-          class="bg-white p-10 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
-          <div
-            class="w-20 h-20 rounded-3xl bg-blue-100 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-            <i data-lucide="apple" class="w-10 h-10 text-blue-600"></i>
+          class="bg-white p-8 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
+          <div class="w-24 h-24 rounded-3xl overflow-hidden relative mb-6">
+            <img src="images/set1.png" class="absolute w-[300%] max-w-none h-full object-cover top-0 left-[-200%]"
+              alt="Питание" />
           </div>
           <h3 class="text-2xl font-bold text-gray-900 mb-6">Полезное питание</h3>
           <p class="text-gray-600 text-lg leading-relaxed">Забудь о строгих диетах. Ты научишься интуитивно понимать
@@ -299,10 +309,10 @@
 
         <!-- Item 4 -->
         <div
-          class="bg-white p-10 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
-          <div
-            class="w-20 h-20 rounded-3xl bg-yellow-100 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-            <i data-lucide="battery" class="w-10 h-10 text-yellow-600"></i>
+          class="bg-white p-8 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
+          <div class="w-24 h-24 rounded-3xl overflow-hidden relative mb-6">
+            <img src="images/set2.png" class="absolute w-[300%] max-w-none h-full object-cover top-0 left-0"
+              alt="Энергия" />
           </div>
           <h3 class="text-2xl font-bold text-gray-900 mb-6">Больше энергии</h3>
           <p class="text-gray-600 text-lg leading-relaxed">С помощью марафона ты сможешь вернуть себе жизненную силу и
@@ -311,10 +321,10 @@
 
         <!-- Item 5 -->
         <div
-          class="bg-white p-10 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
-          <div
-            class="w-20 h-20 rounded-3xl bg-purple-100 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-            <i data-lucide="users" class="w-10 h-10 text-purple-600"></i>
+          class="bg-white p-8 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
+          <div class="w-24 h-24 rounded-3xl overflow-hidden relative mb-6">
+            <img src="images/set2.png" class="absolute w-[300%] max-w-none h-full object-cover top-0 left-[-100%]"
+              alt="Поддержка" />
           </div>
           <h3 class="text-2xl font-bold text-gray-900 mb-6">Поддержка и сообщество</h3>
           <p class="text-gray-600 text-lg leading-relaxed">Ты не будешь одна. В нашем закрытом чате ты найдешь таких же
@@ -323,10 +333,10 @@
 
         <!-- Item 6 -->
         <div
-          class="bg-white p-10 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
-          <div
-            class="w-20 h-20 rounded-3xl bg-orange-100 flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-            <i data-lucide="book-open" class="w-10 h-10 text-orange-600"></i>
+          class="bg-white p-8 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100 group h-full">
+          <div class="w-24 h-24 rounded-3xl overflow-hidden relative mb-6">
+            <img src="images/set2.png" class="absolute w-[300%] max-w-none h-full object-cover top-0 left-[-200%]"
+              alt="Знания" />
           </div>
           <h3 class="text-2xl font-bold text-gray-900 mb-6">Знания на всю жизнь</h3>
           <p class="text-gray-600 text-lg leading-relaxed">Это обучающая программа. За 45 дней ты освоишь систему,
@@ -354,9 +364,9 @@
             <div
               class="w-16 h-16 bg-spring-100 rounded-full flex items-center justify-center font-bold text-3xl text-gray-600 mb-6 border-2 border-spring-200">
               2</div>
-            <img src="images/prize-2.svg" alt="Массажер"
+            <img src="images/prize-2.png" alt="Массажер"
               class="w-48 h-48 object-cover rounded-full mb-8 shadow-md border-4 border-gray-50" />
-            <h3 class="text-2xl font-bold text-gray-800 mb-3">Микротоковый массажер</h3>
+            <h3 class="text-2xl font-bold text-gray-800 mb-3">Лифтинг массажер</h3>
             <p class="text-gray-500 text-lg">для лица</p>
           </div>
         </div>
@@ -369,7 +379,7 @@
               class="absolute -top-8 w-20 h-20 bg-fresh-550 rounded-full flex items-center justify-center font-bold text-3xl text-white shadow-lg border-4 border-white">
               1</div>
             <div class="mt-10 mb-8">
-              <img src="images/prize-1.svg" alt="Беговая дорожка"
+              <img src="images/prize-1.png" alt="Беговая дорожка"
                 class="w-64 h-64 object-cover rounded-full shadow-lg border-8 border-white" />
             </div>
             <h3 class="text-3xl font-bold text-gray-900 mb-3">Беговая дорожка</h3>
@@ -383,12 +393,12 @@
             class="bg-white p-8 rounded-[3rem] w-full h-full flex flex-col items-center text-center transform hover:-translate-y-2 transition duration-300 border border-gray-100 shadow-xl">
             <div
               class="w-16 h-16 bg-spring-100 rounded-full flex items-center justify-center font-bold text-2xl text-gray-600 mb-6 border-2 border-spring-200">
-              3-10</div>
+              10</div>
             <div class="w-48 h-48 bg-spring-50 rounded-full flex items-center justify-center mb-8 shadow-inner">
               <i data-lucide="gift" class="w-20 h-20 text-spring-500"></i>
             </div>
-            <h3 class="text-2xl font-bold text-gray-800 mb-3">Подарочные сертификаты</h3>
-            <p class="text-gray-500 text-lg">на покупку других программ</p>
+            <h3 class="text-2xl font-bold text-gray-800 mb-3">10 подарочных сертификатов</h3>
+            <p class="text-gray-500 text-lg">на другие программы Натальи</p>
           </div>
         </div>
       </div>
@@ -406,7 +416,7 @@
       <div class="grid lg:grid-cols-2 gap-10 max-w-7xl mx-auto">
         <!-- Tariff Basic -->
         <div
-          class="relative flex flex-col h-full rounded-[2.5rem] overflow-hidden transition-all duration-300 bg-white border border-gray-100 shadow-xl">
+          class="relative flex flex-col h-full rounded-[2.5rem] overflow-hidden transition-all duration-300 bg-white border-4 border-spring-400 ring-4 ring-spring-100 shadow-2xl z-10">
           <div class="bg-spring-400 text-white text-center py-3 text-base font-bold uppercase tracking-wider">
             Хит продаж
           </div>
@@ -414,69 +424,83 @@
           <div class="p-10 flex-grow">
             <h3 class="text-3xl md:text-4xl font-bold mb-3 text-gray-900">Тариф БАЗОВЫЙ</h3>
 
-            <div class="mb-8 h-56 rounded-3xl overflow-hidden relative">
-              <img src="images/pricing-basic.svg" alt="Тариф БАЗОВЫЙ" class="w-full h-full object-cover" />
-              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-                <p class="text-white text-xl font-bold">30 дней + 2 недели доступа</p>
-              </div>
-            </div>
+
 
             <ul class="space-y-6 mb-10">
               <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
                   class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Удобные видеоуроки с тренировками на
                   каждый день</span></li>
               <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
-                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Готовые тренировки для дома и зала</span>
+                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Готовые тренировки для дома и зала (у вас
+                  всегда есть выбор)</span>
               </li>
               <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
-                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Видео по питанию (счет калорий, рацион,
-                  ошибки)</span></li>
+                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Видео по питанию: научимся считать
+                  калории, правильно составлять рацион, разберем самые частые ошибки.</span></li>
               <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
                   class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Сбалансированное меню на каждый день с
-                  разным КБЖУ</span></li>
-              <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
-                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Мотивационные уроки и поддержка</span>
+                  разным КБЖУ (калории, белки, жиры, углеводы) учитывая разный вес и образ жизни каждой участницы</span>
               </li>
               <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
-                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Видео по уходу за кожей и растяжке</span>
+                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Мотивационные уроки и видео, которые
+                  помогут не сорваться и идти до конца.</span>
+              </li>
+              <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
+                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Видео по уходу за кожей и растяжке,
+                  которые станут твоим секретом молодости и здоровья.</span>
               </li>
               <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
                   class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>МФР - тренировки на снятие мышечного
-                  напряжения</span></li>
+                  напряжения, восстановление после нагрузок и предотвращение травм</span></li>
               <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
-                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Полезные материалы: файлы и
-                  чек-листы</span></li>
+                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Полезные материалы: файлы и чек-листы для
+                  создания системы без срывов.</span></li>
               <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
-                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Ежедневный чат поддержки</span></li>
+                  class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Ежедневный Чат поддержки и вдохновения, с
+                  ответами на все вопросы от Натальи.</span></li>
               <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
                   class="w-6 h-6 mr-4 flex-shrink-0 text-spring-500"></i><span>Участие в розыгрыше призов</span></li>
             </ul>
 
-            <div class="bg-yellow-50 p-8 rounded-3xl border border-yellow-100 mb-10">
+            <div class="mb-8 p-4 bg-gray-50 rounded-2xl border border-gray-100">
+              <p class="font-bold text-gray-800 text-lg mb-2">Длительность марафона - 30 дней + 2 недели доступа ко всем
+                материалам</p>
+              <p class="text-gray-600">Количество мест ограничено, так как это марафон с личной обратной связью Натальи
+                Макаренко.</p>
+            </div>
+
+            <div
+              class="bg-gradient-to-r from-yellow-50 to-yellow-100 p-8 rounded-3xl border-l-8 border-yellow-400 mb-10 shadow-sm">
               <h4 class="font-bold text-xl text-yellow-900 mb-5 flex items-center">
                 <i data-lucide="sparkles" class="w-6 h-6 mr-3"></i>
-                БОНУСЫ (при быстрой оплате)
+                БОНУСЫ
               </h4>
+              <p class="text-sm text-gray-700 mb-4 italic leading-relaxed">Специальные бонусы для тех, кто успеет внести
+                предоплату или оплатить полностью до старта основных продаж и готов начать уже сегодня!</p>
               <ul class="space-y-3">
-                <li class="text-base text-gray-800 list-disc ml-5">3 дополнительные тренировки для старта</li>
+                <li class="text-base text-gray-800 list-disc ml-5">3 дополнительные тренировки для старта, чтобы начать
+                  раньше всех и получить максимальный результат</li>
                 <li class="text-base text-gray-800 list-disc ml-5">Эксклюзивное меню</li>
-                <li class="text-base text-gray-800 list-disc ml-5">Знакомство с участницами и доступ в чат сразу</li>
-                <li class="text-base text-gray-800 list-disc ml-5">Доступ к материалам 3 месяца вместо 45 дней</li>
+                <li class="text-base text-gray-800 list-disc ml-5">Знакомство с участницами и доступ в чат с поддержкой
+                  сразу после оплаты</li>
+                <li class="text-base text-gray-800 list-disc ml-5">Доступ ко всем материалам программы 3 месяца, вместо
+                  45 дней!</li>
               </ul>
             </div>
           </div>
 
           <div class="p-8 bg-gray-50 border-t border-gray-100 mt-auto">
             <p class="text-center text-lg text-gray-600 mb-8">
-              Зафиксируйте минимальную цену сейчас!
+              <span class="font-bold uppercase">Зафиксируйте минимальную цену сейчас!</span>
               <br />
-              <span class="text-base font-semibold">(Цена повысится до 9900₽)</span>
+              <span class="text-base font-medium">(стоимость на старте официальных продаж начнется от 3990 и будет
+                повышаться до 9900 в несколько этапов)</span>
             </p>
 
             <div class="space-y-8">
               <!-- RF Payments -->
               <div>
-                <div class="flex items-center gap-2 mb-3 text-gray-400">
+                <div class="flex items-center gap-2 mb-3 text-black">
                   <i data-lucide="credit-card" class="w-4 h-4"></i>
                   <span class="text-sm font-bold uppercase tracking-widest whitespace-nowrap">Карты РФ</span>
                   <div class="h-px bg-gray-200 w-full"></div>
@@ -488,14 +512,14 @@
                   </a>
                   <a href="#fullpay-rf"
                     class="block w-full text-center bg-gradient-to-r from-fresh-550 to-fresh-600 text-white font-bold rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 text-lg py-3">
-                    Оплатить полностью 4590₽
+                    Оплатить полностью 3990₽
                   </a>
                 </div>
               </div>
 
               <!-- Non-RF Payments -->
               <div>
-                <div class="flex items-center gap-2 mb-3 text-gray-400">
+                <div class="flex items-center gap-2 mb-3 text-black">
                   <i data-lucide="globe" class="w-4 h-4"></i>
                   <span class="text-sm font-bold uppercase tracking-widest whitespace-nowrap">Карты не РФ</span>
                   <div class="h-px bg-gray-200 w-full"></div>
@@ -507,7 +531,7 @@
                   </a>
                   <a href="#fullpay-intl"
                     class="block w-full text-center bg-gradient-to-r from-fresh-550 to-fresh-600 text-white font-bold rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 text-lg py-3">
-                    Оплатить полностью 4590₽
+                    Оплатить полностью 3990₽
                   </a>
                 </div>
               </div>
@@ -517,75 +541,63 @@
 
         <!-- Tariff VIP -->
         <div
-          class="relative flex flex-col h-full rounded-[2.5rem] overflow-hidden transition-all duration-300 bg-white border-4 border-fresh-550 shadow-2xl z-10">
-          <div class="bg-fresh-550 text-white text-center py-3 text-base font-bold uppercase tracking-wider">
-            Выбор для максимального результата
-          </div>
+          class="relative flex flex-col h-full rounded-[2.5rem] overflow-hidden transition-all duration-300 bg-white border-4 border-fresh-700 shadow-2xl">
 
           <div class="p-10 flex-grow">
-            <h3 class="text-3xl md:text-4xl font-bold mb-3 text-fresh-600">Тариф VIP</h3>
-            <div class="inline-block bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm font-bold mb-8">Осталось 10
-              мест</div>
-
-            <div class="mb-8 h-56 rounded-3xl overflow-hidden relative">
-              <img src="images/pricing-vip.svg" alt="Тариф VIP" class="w-full h-full object-cover" />
-              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-                <p class="text-white text-xl font-bold">30 дней личного сопровождения</p>
-              </div>
+            <h3 class="text-3xl md:text-4xl font-bold mb-6 text-fresh-600">Тариф VIP</h3>
+            <div class="inline-block bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm font-bold mb-8">
+              Всего 10 мест
             </div>
+
+
 
             <ul class="space-y-6 mb-10">
-              <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
-                  class="w-6 h-6 mr-4 flex-shrink-0 text-fresh-550"></i><span>Входит вся программа и бонусы Базового
-                  тарифа</span></li>
-              <li class="flex items-start text-lg text-gray-800"><i data-lucide="check"
-                  class="w-6 h-6 mr-4 flex-shrink-0 text-fresh-550"></i><span>Доступ в общий чат</span></li>
+              <li class="flex items-start text-lg text-gray-800">
+                <i data-lucide="star" class="w-6 h-6 mr-4 flex-shrink-0 text-fresh-550"></i>
+                <span><span class="font-bold">Входит вся программа и бонусы базового тарифа</span> с общим чатом</span>
+              </li>
+              <li class="flex items-start text-lg text-gray-800">
+                <i data-lucide="star" class="w-6 h-6 mr-4 flex-shrink-0 text-fresh-550"></i>
+                <span><span class="font-bold">30 дней личного сопровождения</span> после марафона для закрепления
+                  материала и наилучших результатов</span>
+              </li>
+              <li class="flex items-start text-lg text-gray-800">
+                <i data-lucide="message-circle" class="w-6 h-6 mr-4 flex-shrink-0 text-fresh-550"></i>
+                <span><span class="font-bold">Личный чат с Натальей</span> 30 дней</span>
+              </li>
+              <li class="flex items-start text-lg text-gray-800">
+                <i data-lucide="utensils" class="w-6 h-6 mr-4 flex-shrink-0 text-fresh-550"></i>
+                <span><span class="font-bold">Индивидуальный подбор меню</span> от Натальи под ваш вкус, режим и
+                  индивидуальные особенности</span>
+              </li>
+              <li class="flex items-start text-lg text-gray-800">
+                <i data-lucide="activity" class="w-6 h-6 mr-4 flex-shrink-0 text-fresh-550"></i>
+                <span><span class="font-bold">Индивидуальная разработка программы тренировок</span> от Натальи под ваш
+                  образ жизни</span>
+              </li>
             </ul>
-
-            <div class="bg-fresh-50 p-6 rounded-3xl border border-fresh-100 mb-10">
-              <p class="font-bold text-lg text-gray-900 mb-3 flex items-center"><i data-lucide="zap"
-                  class="w-5 h-5 mr-3 text-fresh-550"></i> Личный чат с Натальей</p>
-              <p class="font-bold text-lg text-gray-900 mb-3 flex items-center"><i data-lucide="zap"
-                  class="w-5 h-5 mr-3 text-fresh-550"></i> Индивидуальное меню</p>
-              <p class="font-bold text-lg text-gray-900 flex items-center"><i data-lucide="zap"
-                  class="w-5 h-5 mr-3 text-fresh-550"></i> Разбор техники</p>
-            </div>
-
-            <div class="bg-yellow-50 p-8 rounded-3xl border border-yellow-100 mb-10">
-              <h4 class="font-bold text-xl text-yellow-900 mb-5 flex items-center">
-                <i data-lucide="sparkles" class="w-6 h-6 mr-3"></i>
-                БОНУСЫ (при быстрой оплате)
-              </h4>
-              <ul class="space-y-3">
-                <li class="text-base text-gray-800 list-disc ml-5">3 дополнительные тренировки для старта</li>
-                <li class="text-base text-gray-800 list-disc ml-5">Эксклюзивное меню</li>
-                <li class="text-base text-gray-800 list-disc ml-5">Знакомство с участницами и доступ в чат сразу</li>
-                <li class="text-base text-gray-800 list-disc ml-5">Доступ к материалам 3 месяца вместо 45 дней</li>
-              </ul>
-            </div>
           </div>
 
           <div class="p-8 bg-gray-50 border-t border-gray-100 mt-auto">
             <p class="text-center text-lg text-gray-600 mb-8">
-              Зафиксируйте минимальную цену сейчас!
-              <br />
-              <span class="text-base font-semibold">(Цена повысится до 19900₽)</span>
+              <span class="font-bold uppercase">Зафиксируйте минимальную цену сейчас!</span>
+              Стоимость будет повышаться до 19900 в несколько этапов
             </p>
 
             <div class="space-y-8">
               <!-- RF Payments -->
               <div>
-                <div class="flex items-center gap-2 mb-3 text-gray-400">
+                <div class="flex items-center gap-2 mb-3 text-black">
                   <i data-lucide="credit-card" class="w-4 h-4"></i>
                   <span class="text-sm font-bold uppercase tracking-widest whitespace-nowrap">Карты РФ</span>
                   <div class="h-px bg-gray-200 w-full"></div>
                 </div>
                 <div class="space-y-3">
-                  <a href="#prepay-rf"
+                  <a href="#prepay-rf-vip"
                     class="block w-full text-center bg-transparent border-2 border-spring-500 text-spring-600 hover:bg-spring-50 font-bold rounded-full transition-all duration-300 text-lg py-3">
                     Внести предоплату 5000₽
                   </a>
-                  <a href="#fullpay-rf"
+                  <a href="#fullpay-rf-vip"
                     class="block w-full text-center bg-gradient-to-r from-fresh-550 to-fresh-600 text-white font-bold rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 text-lg py-3">
                     Оплатить полностью 14590₽
                   </a>
@@ -594,17 +606,17 @@
 
               <!-- Non-RF Payments -->
               <div>
-                <div class="flex items-center gap-2 mb-3 text-gray-400">
+                <div class="flex items-center gap-2 mb-3 text-black">
                   <i data-lucide="globe" class="w-4 h-4"></i>
                   <span class="text-sm font-bold uppercase tracking-widest whitespace-nowrap">Карты не РФ</span>
                   <div class="h-px bg-gray-200 w-full"></div>
                 </div>
                 <div class="space-y-3">
-                  <a href="#prepay-intl"
+                  <a href="#prepay-intl-vip"
                     class="block w-full text-center bg-transparent border-2 border-spring-500 text-spring-600 hover:bg-spring-50 font-bold rounded-full transition-all duration-300 text-lg py-3">
                     Внести предоплату 5000₽
                   </a>
-                  <a href="#fullpay-intl"
+                  <a href="#fullpay-intl-vip"
                     class="block w-full text-center bg-gradient-to-r from-fresh-550 to-fresh-600 text-white font-bold rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 text-lg py-3">
                     Оплатить полностью 14590₽
                   </a>
@@ -625,25 +637,25 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
         <div class="bg-white p-6 rounded-[2.5rem] shadow-xl hover:shadow-2xl transition duration-300">
           <div class="aspect-[4/5] bg-gray-200 rounded-[2rem] overflow-hidden relative mb-6">
-            <img src="images/result-1.svg" alt="До и После" class="w-full h-full object-cover" />
+            <img src="images/result-1.png" alt="До и После" class="w-full h-full object-cover" />
             <div
               class="absolute top-6 left-6 bg-white/95 backdrop-blur-md px-4 py-2 rounded-full text-sm font-bold text-gray-900 shadow-md tracking-wider">
               ДО / ПОСЛЕ</div>
           </div>
-          <p class="text-center font-bold text-gray-800 text-xl py-2">- 5.5 кг за 30 дней</p>
+          <p class="text-center font-bold text-gray-800 text-xl py-2">- 3.7 кг за 30 дней</p>
         </div>
         <div class="bg-white p-6 rounded-[2.5rem] shadow-xl hover:shadow-2xl transition duration-300">
           <div class="aspect-[4/5] bg-gray-200 rounded-[2rem] overflow-hidden relative mb-6">
-            <img src="images/result-2.svg" alt="До и После" class="w-full h-full object-cover" />
+            <img src="images/result-2.png" alt="До и После" class="w-full h-full object-cover" />
             <div
               class="absolute top-6 left-6 bg-white/95 backdrop-blur-md px-4 py-2 rounded-full text-sm font-bold text-gray-900 shadow-md tracking-wider">
               ДО / ПОСЛЕ</div>
           </div>
-          <p class="text-center font-bold text-gray-800 text-xl py-2">- 5.5 кг за 30 дней</p>
+          <p class="text-center font-bold text-gray-800 text-xl py-2">- 5.8 кг за 30 дней</p>
         </div>
         <div class="bg-white p-6 rounded-[2.5rem] shadow-xl hover:shadow-2xl transition duration-300">
           <div class="aspect-[4/5] bg-gray-200 rounded-[2rem] overflow-hidden relative mb-6">
-            <img src="images/result-3.svg" alt="До и После" class="w-full h-full object-cover" />
+            <img src="images/result-3.JPG" alt="До и После" class="w-full h-full object-cover" />
             <div
               class="absolute top-6 left-6 bg-white/95 backdrop-blur-md px-4 py-2 rounded-full text-sm font-bold text-gray-900 shadow-md tracking-wider">
               ДО / ПОСЛЕ</div>
@@ -661,32 +673,28 @@
         <!-- Review 1 -->
         <div class="bg-spring-50 p-10 rounded-[3rem] relative border border-spring-100 hover:shadow-xl transition">
           <i data-lucide="quote" class="w-12 h-12 text-spring-400 absolute top-8 left-8 opacity-40"></i>
-          <p class="text-gray-800 text-xl italic pt-10 mb-8 relative z-10 leading-relaxed">Марафон просто супер! Я
-            никогда не думала, что в 45 лет смогу так выглядеть. Спасибо Наталье за поддержку!</p>
-          <div class="flex items-center gap-4 mt-4">
-            <div class="w-12 h-12 rounded-full bg-spring-300 flex-shrink-0"></div>
-            <div class="text-lg font-bold text-gray-900">Участница 1</div>
-          </div>
+          <p class="text-gray-800 text-xl italic pt-10 mb-8 relative z-10 leading-relaxed">Дорогая Наталья!!!🌺 Я от
+            всей души хочу тебя поблагодарить за этот замечательный марафон! 🙏🙏🙏 Я многое поняла и многому научилась!
+            Приятный бонус -4 кг🤗🤗🤗 Желаю тебе успехов во всех начинаниях , крепкого здоровья ,любви и всего
+            того,чего ты сама себе желаешь!❤️💋💋💋 Еще раз ОГРОМНОЕ СПАСИБО!!!!!!)!</p>
+
         </div>
         <!-- Review 2 -->
         <div class="bg-spring-50 p-10 rounded-[3rem] relative border border-spring-100 hover:shadow-xl transition">
           <i data-lucide="quote" class="w-12 h-12 text-spring-400 absolute top-8 left-8 opacity-40"></i>
           <p class="text-gray-800 text-xl italic pt-10 mb-8 relative z-10 leading-relaxed">Очень вкусное меню, я даже не
             заметила, что на диете. Муж тоже оценил рецепты.</p>
-          <div class="flex items-center gap-4 mt-4">
-            <div class="w-12 h-12 rounded-full bg-spring-300 flex-shrink-0"></div>
-            <div class="text-lg font-bold text-gray-900">Участница 2</div>
-          </div>
+
         </div>
         <!-- Review 3 -->
         <div class="bg-spring-50 p-10 rounded-[3rem] relative border border-spring-100 hover:shadow-xl transition">
           <i data-lucide="quote" class="w-12 h-12 text-spring-400 absolute top-8 left-8 opacity-40"></i>
-          <p class="text-gray-800 text-xl italic pt-10 mb-8 relative z-10 leading-relaxed">Тренировки огонь! Сначала
-            было сложно, но Наталья так мотивирует, что хочется делать еще и еще.</p>
-          <div class="flex items-center gap-4 mt-4">
-            <div class="w-12 h-12 rounded-full bg-spring-300 flex-shrink-0"></div>
-            <div class="text-lg font-bold text-gray-900">Участница 3</div>
-          </div>
+          <p class="text-gray-800 text-xl italic pt-10 mb-8 relative z-10 leading-relaxed">Наталья, конечно все
+            заметили. Масса комплиментов 😇😇😇 Ну я же не только внешне но и внутренне поменялась 👌 Поменялось
+            мышление. И вообще хожу сияю как звезда🤩🤩🤩🤩🤩🤩 А сегодня одела вообще всё новое, надоело откладывать
+            жизнь на потом. Новую юбку, кофту, сапоги на каблуках и новое пальто. Шла и кайфовала😇😇😇😇 Ловила на себе
+            взгляды 👀👀👀👀 Полный восторг❤️❤️❤️❤️❤️❤️❤️❤️❤️</p>
+
         </div>
       </div>
     </div>
@@ -698,32 +706,39 @@
       <div
         class="flex flex-col lg:flex-row items-center gap-16 bg-spring-100 rounded-[4rem] p-10 md:p-16 shadow-2xl border border-spring-200">
         <div class="lg:w-1/3">
-          <img src="images/expert-photo.svg" alt="Наталья Макаренко"
+          <img src="images/expert-photo.JPG" alt="Наталья Макаренко"
             class="w-full h-auto rounded-[3rem] shadow-xl object-cover ring-8 ring-white" />
         </div>
         <div class="lg:w-2/3">
-          <h2 class="text-5xl md:text-6xl font-bold text-gray-900 mb-8">Об эксперте</h2>
-          <h3 class="text-3xl md:text-4xl font-medium text-spring-600 mb-10">Наталья Макаренко</h3>
-          <div class="space-y-6 text-gray-800 text-xl md:text-2xl leading-relaxed">
-            <p>
-              Профессиональный фитнес-тренер с многолетним стажем. Мне 53 года, и я на собственном примере доказываю,
-              что возраст — это просто цифра.
-            </p>
-            <p>
-              Моя миссия — помочь женщинам полюбить себя, обрести стройность без изнурительных диет и сохранить здоровье
-              и молодость на долгие годы.
-            </p>
-            <p>
-              В моих марафонах приняли участие уже более 2000 женщин, которые изменили не только свои тела, но и жизни.
-              Я создала систему, которая работает мягко, но эффективно, учитывая особенности женского организма.
-            </p>
+          <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight uppercase">ПОЧЕМУ ТЫСЯЧИ ЖЕНЩИН
+            ДОВЕРЯЮТ СВОЮ ТРАНСФОРМАЦИЮ НАТАЛЬЕ МАКАРЕНКО?</h2>
+
+          <div class="space-y-6 text-gray-800 text-lg md:text-xl leading-relaxed mb-10">
+            <ul class="space-y-4">
+              <li class="flex items-start">
+                <i data-lucide="check-circle" class="w-6 h-6 text-spring-600 mr-3 flex-shrink-0 mt-1"></i>
+                <span>Профессиональный дипломированный Фитнес-Тренер.</span>
+              </li>
+              <li class="flex items-start">
+                <i data-lucide="check-circle" class="w-6 h-6 text-spring-600 mr-3 flex-shrink-0 mt-1"></i>
+                <span>53 года и доказательство того, что возраст — это только цифра.</span>
+              </li>
+              <li class="flex items-start">
+                <i data-lucide="check-circle" class="w-6 h-6 text-spring-600 mr-3 flex-shrink-0 mt-1"></i>
+                <span>Автор популярного блога о фитнесе и питании с миллионами просмотров и высочайшим доверием
+                  аудитории в 170 тысяч подписчиков.</span>
+              </li>
+            </ul>
           </div>
-          <div class="mt-12 flex gap-6">
-            <a href="#"
-              class="flex items-center gap-3 text-spring-700 font-bold hover:text-spring-800 transition bg-white px-8 py-4 rounded-full shadow-md text-xl">
-              <i data-lucide="instagram" class="w-8 h-8"></i>
-              <span>Instagram</span>
-            </a>
+
+          <div class="bg-white p-8 rounded-3xl border-l-4 border-spring-500 shadow-sm">
+            <i data-lucide="quote" class="w-8 h-8 text-spring-400 mb-4"></i>
+            <p class="text-gray-700 italic text-lg md:text-xl font-medium">
+              “Мне 53, и я выгляжу лучше, чем в 35. Я прошла этот путь сама и точно знаю, какие методики работают, а
+              какие только тратят время, особенно после 40-ка. Я не даю теорию, я делюсь своим опытом.
+              <br /><br />
+              Моя миссия - помочь женщинам в любом возрасте почувствовать себя красивыми, счастливыми и желанными”
+            </p>
           </div>
         </div>
       </div>
@@ -732,7 +747,14 @@
 
   <!-- Call to Action -->
   <div class="py-24 bg-white text-center">
-    <h3 class="text-4xl font-bold mb-8">Готовы к переменам?</h3>
+    <div class="max-w-4xl mx-auto px-4 mb-8">
+      <h3 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900 leading-tight">Уже тысячи женщин прошли марафон и
+        добились невероятных результатов!</h3>
+      <p class="text-xl md:text-2xl text-gray-700 mb-6">Обрели здоровое и красивое тело, энергию и уверенность в себе.
+      </p>
+      <p class="text-xl md:text-2xl text-spring-600 font-bold">Перестань ждать идеального момента. Идеальный момент —
+        это сейчас, и он невероятно выгоден!</p>
+    </div>
     <button onclick="document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })"
       class="bg-gradient-to-r from-fresh-550 to-fresh-600 text-white px-12 py-5 rounded-full font-bold text-xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
       Выбрать тариф
@@ -752,17 +774,56 @@
   <!-- Footer Section -->
   <footer class="bg-gray-900 text-gray-400 py-12">
     <div class="container mx-auto px-4 text-center">
-      <p class="mb-2">© 2025. Самозанятая Макаренко Наталья Анатольевна. Все права защищены.</p>
+      <p class="mb-2">© 2026. Самозанятая Макаренко Наталья Анатольевна. Все права защищены.</p>
       <p class="mb-2">ИНН: 772672813036</p>
       <p class="mb-4">e-mail: manbrikserg@mail.ru</p>
-      <p class="mb-8 text-sm">Режим работы: с понедельника по пятницу с 10:00 до 17:00 (МСК)</p>
 
-      <div class="flex justify-center gap-6 text-sm underline opacity-70 hover:opacity-100 transition">
-        <a href="#">Публичная оферта</a>
-        <a href="#">Политика конфиденциальности</a>
+
+      <div class="flex flex-wrap justify-center gap-6 text-sm underline opacity-70 hover:opacity-100 transition">
+        <a href="public_offer.html" target="_blank">Публичная оферта</a>
+        <a href="privacy_policy.html" target="_blank">Политика конфиденциальности</a>
+        <a href="consent_personal_data.html" target="_blank">Согласие на обработку персональных данных</a>
       </div>
     </div>
   </footer>
+
+  <!-- Payment Confirmation Modal -->
+  <div id="payment-modal"
+    class="fixed inset-0 bg-black/50 z-50 hidden flex items-center justify-center backdrop-blur-sm p-4">
+    <div class="bg-white rounded-3xl p-8 max-w-lg w-full shadow-2xl transform transition-all scale-100">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Подтверждение</h3>
+
+      <label class="flex items-start gap-4 cursor-pointer group">
+        <div class="relative flex items-center mt-1">
+          <input type="checkbox" id="terms-checkbox" class="peer sr-only">
+          <div
+            class="w-6 h-6 bg-gray-200 border-2 border-gray-300 rounded transition-colors peer-checked:bg-spring-500 peer-checked:border-spring-500">
+          </div>
+          <i data-lucide="check"
+            class="w-4 h-4 text-white absolute top-1 left-1 opacity-0 peer-checked:opacity-100 transition-opacity"></i>
+        </div>
+        <span class="text-gray-600 text-sm leading-relaxed select-none">
+          Я принимаю условия <a href="public_offer.html" target="_blank"
+            class="text-spring-600 hover:underline">Публичной
+            оферты</a>, согласен с <a href="privacy_policy.html" target="_blank"
+            class="text-spring-600 hover:underline">Политикой конфиденциальности</a> и даю <a
+            href="consent_personal_data.html" target="_blank" class="text-spring-600 hover:underline">Согласие на
+            обработку персональных данных</a>
+        </span>
+      </label>
+
+      <div class="flex gap-4 mt-8">
+        <button type="button" id="cancel-payment"
+          class="w-1/2 py-3 rounded-xl bg-gray-100 text-gray-700 font-bold hover:bg-gray-200 transition-colors">
+          Отмена
+        </button>
+        <button type="button" id="confirm-payment" disabled
+          class="w-1/2 py-3 rounded-xl bg-gray-300 text-white font-bold transition-all cursor-not-allowed">
+          Оплатить
+        </button>
+      </div>
+    </div>
+  </div>
 
   <script>
     // FAQ Data
@@ -777,7 +838,7 @@
       },
       {
         question: "Подходит ли мне курс, если у меня есть проблемы со здоровьем?",
-        answer: "Смотря какие проблемы со здоровьем. Марафон разработан для тех, кому не запрещены тренировки. Если у вас есть хронические заболевания и серьезные ограничения по физическим нагрузкам, пожалуйста, проконсультируйтесь со своим лечащим врачом перед началом марафона. Или напишите мне в ватсап. Я забочусь о вашем здоровье, и моя цель- помочь вам, не навредив."
+        answer: "Смотря какие проблемы со здоровьем. Марафон разработан для тех, кому не запрещены тренировки. Если у вас есть хронические заболевания и серьезные ограничения по физическим нагрузкам, пожалуйста, проконсультируйтесь со своим лечащим врачом перед началом марафона.  Я забочусь о вашем здоровье, и моя цель- помочь вам, не навредив."
       },
       {
         question: "Сколько времени нужно уделять тренировкам?",
@@ -813,7 +874,7 @@
       },
       {
         question: "Не проходит оплата, что делать?",
-        answer: "По всем вопросам связанным с оплатой напишите в WhatsApp +79685189722 и вам помогут разобраться."
+        answer: "По всем вопросам связанным с оплатой напишите в телеграм https://t.me/MyuppyTeam и вам помогут разобраться."
       }
     ];
 
@@ -869,6 +930,68 @@
         }
         lucide.createIcons();
       });
+    });
+
+    // Payment Modal Logic
+    const modal = document.getElementById('payment-modal');
+    const checkbox = document.getElementById('terms-checkbox');
+    const confirmBtn = document.getElementById('confirm-payment');
+    const cancelBtn = document.getElementById('cancel-payment');
+    let targetLink = '';
+
+    // Function to open modal
+    function openPaymentModal(e) {
+      e.preventDefault();
+      targetLink = this.getAttribute('href');
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden'; // Prevent scrolling
+
+      // Update Lucide icons inside modal if needed
+      lucide.createIcons();
+    }
+
+    // Attach to all payment buttons
+    const payButtons = document.querySelectorAll('a[href^="#prepay"], a[href^="#fullpay"]');
+    payButtons.forEach(btn => btn.addEventListener('click', openPaymentModal));
+
+    // Checkbox logic
+    checkbox.addEventListener('change', function () {
+      if (this.checked) {
+        confirmBtn.disabled = false;
+        confirmBtn.classList.remove('bg-gray-300', 'cursor-not-allowed');
+        confirmBtn.classList.add('bg-spring-500', 'hover:bg-spring-600', 'shadow-lg');
+      } else {
+        confirmBtn.disabled = true;
+        confirmBtn.classList.add('bg-gray-300', 'cursor-not-allowed');
+        confirmBtn.classList.remove('bg-spring-500', 'hover:bg-spring-600', 'shadow-lg');
+      }
+    });
+
+    // Confirm button logic
+    confirmBtn.addEventListener('click', function () {
+      if (!confirmBtn.disabled) {
+        window.location.href = targetLink;
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Cancel button logic
+    cancelBtn.addEventListener('click', function () {
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+      checkbox.checked = false;
+      // Reset button state
+      confirmBtn.disabled = true;
+      confirmBtn.classList.add('bg-gray-300', 'cursor-not-allowed');
+      confirmBtn.classList.remove('bg-spring-500', 'hover:bg-spring-600', 'shadow-lg');
+    });
+
+    // Close on click outside
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal) {
+        cancelBtn.click();
+      }
     });
   </script>
 </body>
